@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #0b1736;
+  /* background-color: white; */
+}
+a {
+  color: #fff;
+}
+.container {
+  font-size: 3.2rem;
+  background-image: url(./Images/homepage-splash.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 50%;
+  position: relative;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.logoContainer {
+  width: 420px;
+  height: 77px;
+}
+.navButtons {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.login {
+  background-image: linear-gradient(180deg, #7da0e6, #476aae 66%, #4a6cb1);
+  border-color: #4676cb;
+  padding: 10px 15px;
+  border-radius: 7px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 1px #091637cb;
+}
+.login:hover {
+  background-image: linear-gradient(180deg, #6989c9, #3c5a97 66%, #4261a0);
+  border-color: #4676cb;
+  padding: 10px 15px;
+  border-radius: 7px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 1px #091637cb;
+}
+.FAQ {
+  padding: 15px 17px;
+  border-radius: 7px;
+  background-color: #00123fc4;
+  box-shadow: 1px 1px 1px 1px #091637cb;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.FAQ:hover {
+  padding: 15px 17px;
+  border-radius: 7px;
+  background-color: #000c2bc4;
+  box-shadow: 1px 1px 1px 1px #091637cb;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.heading1 {
+  font-size: 3rem;
+  margin: 25px 15px;
+  text-shadow: 4px 4px 8px #0b1736, -4px -4px 8px #0b1736;
+  width: 70%;
+}
+.specialOFfer {
+  font-size: 2rem;
+  margin: 25px 15px;
+  text-shadow: 4px 4px 8px #0b1736, -4px -4px 8px #0b1736;
+}
+.JoinNow {
+  color: #38321a;
+  background-image: linear-gradient(
+    180deg,
+    #fedf53,
+    #ffdf75 20%,
+    #ecb72e 75%,
+    #f1c443
+  );
+  border-color: #fcde5c;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  margin: 0.5em 15px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.JoinNow:hover {
+  color: #38321a;
+  background-image: linear-gradient(
+    180deg,
+    #ffdb3c,
+    #dcbf63 20%,
+    #cea131 75%,
+    #ddb034
+  );
+  border-color: #fcde5c;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  margin: 0.5em 15px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.promoCode {
+  text-decoration: underline;
+  font-size: 2rem;
+  margin: 0.5em 15px;
+}
+.smalltext {
+  font-size: small;
+  margin: 0.5em 15px;
+}
+ .sectionSepartor {
+  height: 8px;
+  );
+ }
+.container2 {
+  background: linear-gradient(
+    to left top,
+    #0d0e3c 0,
+    #1d1e5e 28%,
+    #222361 50%,
+    #1b225a 69%,
+    #101543
+  );
+  padding: 50px;
+  text-align: center;
+}
+.heading2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 500;
+  color: #34b0ff;
+  font-size: 4rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.moreGames {
+
+  padding: 18px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  background-image: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.41));
+  background-color: #2a2b5a;
+}
+.moreGames:hover {
+  padding: 18px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  background-image: linear-gradient(
+    180deg,
+    transparent 0,
+    rgba(0, 0, 0, 0.611)
+  );
+}
+.moreGamesBox {
+  width: 80%;
+  padding: 40px;
+  background-color: #14153b;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 0 13px 0 #7f7f7f;
+  box-shadow: 0 0 13px 0 #7f7f7f;
+  max-width: 1000px;
+  margin: 40px auto;
+
+}
+#Div1 {
+  display: none;
+}
+.informationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HowToPlay {
+  text-align: left;
+}
+.billboard {
+  width: 50%;
+}
+.billboard img {
+  width: 60%;
+}
+.HowToPlay ul li {
+  line-height: 3rem;
+  font-size: 2rem;
+}
+.cashPrices {
+  padding-top: 100px;
+}
+.cashPriceCard {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.bonus {
+  width: 250px;
+  height: 195px;
+}
+.container3 {
+  min-height: 500px;
+      left top,
+      left bottom,
+
+    url(./Images/joinNowBackground.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./Images/joinNowBackground.png) no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 0;
+  padding: 35% 20px 20px;
+  background-repeat: repeat-y;
+  text-align: center;
+}
+.specialOFfer2 {
+  font-size: 2.5rem;
+  margin-top: -21%;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+}
+.container4 {
+  background-color: #274496;
+
+  background: linear-gradient(270deg, #274496 1%, #5585de);
+  padding: 50px;
+}
+.playgameContainer {
+  width: 30%;
+}
+.playgameImg {
+  width: 100%;
+}
+.playGame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.downloadContainer {
+  line-height: 2rem;
+}
+.playstore,
+.appstore {
+  width: 200px;
+  height: 71px;
+}
+.container5 {
+  padding: 20px;
+  background-color: #0c144f;
+}
+
+.name {
+  font-size: 2rem;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+}
+.footerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.none {
+  text-decoration: none;
+}
+.none:hover {
+  text-decoration: underline;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.copyright {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .logoContainer {
+    width: 300px;
+  }
+  .logo {
+    width: 178px;
+  }
+  .navButtons {
+    font-size: 0.8rem;
+  }
+  .login {
+    padding: 7px 11px;
+  }
+  .FAQ {
+    padding: 7px 11px;
+  }
+  .heading1 {
+    font-size: 2rem;
+  }
+  .heading2{
+      font-size: 2.5rem;
+  }
+  .specialOFfer {
+    font-size: 1.5rem;
+  }
+  .promoCode{
+      font-size: 1.5rem;
+  }
+  .smalltext{
+      margin: 0 0;
+  }
+  .moreGames {
+      display: none;
+  }
+  .HowToPlay ul li {
+    line-height: 2rem;
+    font-size: 1rem;
+}
+.informationContainer {
+    flex-direction: column;
+}
+.billboard img {
+    width: 100%;
+   
+}
+.billboard  {
+    width: auto;
+   
+}
+.bonus {
+    width: 200px;
+    height: 140px;
+}
+.playgameImg {
+    display: none;
+}
+}
